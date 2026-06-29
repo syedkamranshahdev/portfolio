@@ -1,0 +1,18 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+!.env.example
+*.log
+.DS_Store
+.vercel/
+
+# Stream portfolio demos from Cloudinary; never bundle video files.
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+public/videos/
